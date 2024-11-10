@@ -1,0 +1,7 @@
+displayName: Header Based Sticky Sessions
+type: middleware
+import: github.com/miglesiassarria/traefik-header-sticky
+summary: 'Create sticky sessions based on a custom header'
+testData:
+  headerName: X-Custom-Header
+  cookieName: sticky-header
